@@ -1,0 +1,4 @@
+* cmp doesn't seem to have a source configured that would give words from all buffers/cwd. vim's native C-n completion does however. fix this
+* minikube service command completion in fish doesn't pick up service names
+* it indents whenever i type colon, which is a problem when it's part of a string (like a docker image tag)
+* watch doesn't recognize k as command

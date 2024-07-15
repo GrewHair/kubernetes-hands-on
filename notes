@@ -1,0 +1,10 @@
+#  vim: set ft=bash :
+
+# [dealing with services]
+
+# "on docker desktop", if localhost doesn't work
+k port-forward svc/fleetman-webapp 30080:80
+
+# on minikube with docker driver
+minikube service fleetman-webapp
+
